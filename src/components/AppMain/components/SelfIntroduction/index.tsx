@@ -9,7 +9,7 @@ const SelfIntroduction = () =>{
             A little bit about me
             </header>
             <p className="self-introduction--body">
-            My name is Jackson Chik, a third year CS student studying at UBC.
+            My name is Jackson Chik, a computer science student studying at UBC.
             </p>
             <p className="self-introduction--body">
             I was studying at McGill in Montreal, Quebec before September 2021. Fun times. 
