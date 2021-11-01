@@ -6,7 +6,6 @@ const PastExperience = () =>{
         <div>
             <div className="past-experience">
                 <header>
-                    Full stack developer @ KM.ON by Karl Mayer
                 </header>
             </div>
         </div>
