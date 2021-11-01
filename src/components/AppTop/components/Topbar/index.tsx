@@ -44,7 +44,7 @@ const Topbar = () : JSX.Element => {
 //       </Switch>
 //     </div>
 //   </Router>
-    <Router>
+    // <Router>
     <header className="topbar-layout">
     <Link to="/bio" className="topbar-layout--item">
       {/* <Button className="topbar-layout--item" onClick={onClickButton}> */}
@@ -62,7 +62,7 @@ const Topbar = () : JSX.Element => {
       {/* </Button> */}
     </Link>
     </header>
-    </Router>
+    // </Router>
     )
 }
 
