@@ -14,7 +14,10 @@ const App = () : JSX.Element =>{
     <AppTop/>
     {/* <AppMain/> */}
     <Switch>
+                        <Route path="/my-website" component={SelfIntroduction} />
                         <Route path="/bio" component={SelfIntroduction} />
+                        {/* temp fix!!!! */}
+
                         <Route path="/pastExp" component={PastExperience  }/>
                         <Route path="/more" />
                     </Switch>
