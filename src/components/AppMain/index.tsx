@@ -4,11 +4,11 @@ import PastExperience from "./components/PastExperience";
 // import { Route } from "react-router";
 import SelfIntroduction from "./components/SelfIntroduction";
 import './style.css'
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import {  HashRouter, Route, Switch } from "react-router-dom";
 import { Link } from "react-router-dom";
 const AppMain = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <main className="app-main-layout">
                 <div>
                 {/* <Link to="/bio">Messages</Link> */}
@@ -19,7 +19,7 @@ const AppMain = () => {
                     {/* </Switch> */}
                 </div>   
             </main>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 
